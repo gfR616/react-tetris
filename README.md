@@ -1,3 +1,6 @@
+Код написан по мотивам видео:
+https://www.youtube.com/watch?v=ZGOaCxX8HIU
+
 # React Tetris - Starter files
 
 This is the starter files for the React-Tetris tutorial, you will find: 

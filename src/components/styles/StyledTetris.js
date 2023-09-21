@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import bgImage from '../../img/bg.jpg'
 
 export const StyledTetrisWrapper = styled.div`
-  wigth: 100vh;
+  width: 100vw;
   height: 100vh;
   background: url(${bgImage}) #000;
   background-size: cover;
@@ -23,3 +23,4 @@ export const StyledTetris = styled.div`
     padding: 0 20px;
   }
 `
+

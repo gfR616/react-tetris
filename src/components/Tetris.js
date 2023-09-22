@@ -24,8 +24,6 @@ const Tetris = () => {
     rowsCleared
   );
 
-  console.log('re-render');
-
   const movePlayer = dir => {
     if (!checkCollision(player, stage, { x: dir, y: 0 })) {
       updatePlayerPos({ x: dir, y: 0 });
@@ -65,7 +63,6 @@ const Tetris = () => {
     } else {
       // Game over!
       if (player.pos.y < 1) {
-        console.log('GAME OVER!!!');
         setGameOver(true);
         setDropTime(null);
       }
@@ -74,14 +71,11 @@ const Tetris = () => {
   };
 
   const dropPlayer = () => {
-    // We don't need to run the interval when we use the arrow down to
-    // move the tetromino downwards. So deactivate it for now.
     setDropTime(null);
     drop();
   };
 
-  // This one starts the game
-  // Custom hook by Dan Abramov
+
   useInterval(() => {
     drop();
   }, dropTime);

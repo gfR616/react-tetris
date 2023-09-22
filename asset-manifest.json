@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-tetris/static/css/main.feca43b4.css",
+    "main.js": "/react-tetris/static/js/main.9904c3ed.js",
+    "static/media/bg.jpg": "/react-tetris/static/media/bg.db1b260f43d77b2990bf.jpg",
+    "static/media/Pixel-LCD-7.woff": "/react-tetris/static/media/Pixel-LCD-7.63d9c15192fdeab6d3a6.woff",
+    "index.html": "/react-tetris/index.html",
+    "main.feca43b4.css.map": "/react-tetris/static/css/main.feca43b4.css.map",
+    "main.9904c3ed.js.map": "/react-tetris/static/js/main.9904c3ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feca43b4.css",
+    "static/js/main.9904c3ed.js"
+  ]
+}
